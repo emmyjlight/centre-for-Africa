@@ -1,0 +1,2157 @@
+ /* just like i have said in the html, i will fixed the top part to the main body of the work */
+ /* now we have the body */
+    body{
+    /* width: 100%; */
+    /* height: 4751px; */
+    /* height: 4751px; */
+    background: #FFF;
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */
+
+    }
+
+/* we will have class of the top part*/
+.top{
+    width: 1215px;
+    border: 3px solid;
+    background-color: aquamarine;
+    height:100px;
+    background-size: cover;
+    display: flex;
+    padding: 30px;
+    align-items: center;
+    background-attachment:fixed;
+  /* margin-left: 10px; */
+    
+}
+/* we will have class of insidetop and logo part- about. */
+.insidetop{
+border: 3px solid;
+width: 75%;
+height: 100px;
+display: flex;
+ align-items: center;
+   }
+.main-logo{
+    margin: 10px;
+}
+
+.about-layers{
+    display: flex;
+ }
+
+ .menu{
+    margin: 18px;
+    font-size: 20px;
+ }
+
+ .link{
+        text-decoration: none;
+        color: black;
+ }
+ .link:hover{
+         font-size: 23px;
+         color: blue;
+ }
+.btntop{
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+    
+}
+ 
+
+/* here, i want to add selection to the core areas of activity, but will put them inside a link */
+.op{
+    border: none;
+    background:none;
+    font-size: 20px;
+}
+.op:hover{
+font-size: 23px;
+    color: blue;
+}
+.btn1{
+    background-color: orangered;
+    color: white;
+    height: 80px;
+    width: 200px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    /* margin-left: 65px; */
+    cursor: pointer;
+}
+ 
+/* here, we have the first image */
+.BA{
+        /* border: 3px solid; */
+    /* background: linear-gradient(rgba(0,255,0,0.5),rgba(0,0,255,0)),
+        url(children\ 4.jpg); */
+background: linear-gradient(269.91deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.92) 100%),url(children\ 4.jpg);
+height: 815px;
+width:1280px;
+background-repeat: no-repeat ;
+background-size: cover;
+/* background-attachment: fixed; */
+ }
+ 
+ 
+.inside-ba {
+    /* border: 3px solid; */
+    display: flex;
+    flex-direction: column;
+    gap: px;
+    align-items: flex-start;
+    justify-content: center;
+    /* align-self: stretch; */
+    /* flex-shrink: 0; */
+    /* position: relative; */
+    color: white;
+    /* margin:  auto; */
+    height: 400px;
+    /* width: 400px; */
+ }
+
+ .af{
+    /* border: 3px solid; */
+    /* color: #ffffff; */
+    text-align: left;
+    font-family: 'KlarnaSans-Bold', sans-serif;
+    font-size: 40px;
+    line-height: 70.4px;
+    font-weight: 700;
+    position: relative;
+    width: 654px;
+    height: 200px;
+    margin: 50px;
+    /* margin-top: 70px; */
+    padding-top: 50px;
+}
+
+.pa {
+    /* color: #ffffff; */
+    text-align: left;
+    font-family: 'NotoSans-DisplayRegular', sans-serif;
+    font-size: 20px;
+    /* line-height: 33.6px; */
+    font-weight: 400;
+    position: relative;
+    /* width: 601px; */
+    margin-left: 55px;
+}
+
+.btntop2{
+    display: flex;
+        align-items: center;
+        text-align: center;
+        margin-left: 50px;
+        margin-top: 50px;
+        /* padding: 20px; */
+}
+.btn2{
+        background-color: orangered;
+        color: white;
+        height: 80px;
+        width: 200px;
+        border: none;
+        border-radius: 3px;
+        font-size: 20px;
+         cursor: pointer;
+        
+ }
+ /* here, we have second image */
+ 
+ .BA2{
+        /* border: 3px solid; */
+    background:rgba(0, 0, 128, 0.897);
+        height: 651px;
+        width: 1280px ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        color: white;
+  } 
+
+  .int {
+      /* color: #ffffff; */
+      text-align: left;
+      font-family: 'KlarnaSans-Bold', sans-serif;
+      font-size: 64px;
+      /* line-height: 70.4px; */
+      font-weight: 700;
+      position: relative;
+      width: 654px;
+      margin: 50px;
+      /* margin-top: 70px; */
+      padding-top: 10px;
+  }
+
+ .pa2{
+    /* border: 3px solid; */
+    text-align: left;
+        font-family: 'NotoSans-DisplayRegular', sans-serif;
+        /* font-size: 17px; */
+        line-height: 33.6px;
+        font-weight: 400;
+        position: relative;
+        width: 400px;
+        margin-left: 55px;
+        height: 300px;
+  } 
+
+  /* here, we have white background */
+
+  .wp{
+        /* border: 3px solid; */
+    display: flex;
+        width: 1280px;
+        /* padding: 160px 120px; */
+        justify-content: center;
+        align-items: center;
+        gap: 281px;
+        background: #F7F7F7;
+  }
+
+
+  .inside-wp{
+    display: flex;
+        align-items: center;
+        gap: 14px;
+        flex: 1 0 0;
+        padding-top: 50px;
+  }
+
+  .text{
+        /* border: 3px solid; */
+    align-self: stretch;
+    color: #000;
+        font-family: Klarna Text;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72px;
+        /* 128.571% */
+        letter-spacing: -1.12px;
+        width: 400px;
+                padding: 160px 120px;
+  }
+  .text-2{
+    /* border: 3px solid; */
+    align-self: stretch;
+    color: #000;
+         font-family: Klarna Text;
+        /* font-size: 20px; */
+        font-style: normal;
+        /* font-weight: 700; */
+        /* line-height: 72px;  */
+        /* 128.571%; */
+        letter-spacing: -1.12px;
+        width: 500px; 
+        display: flex;
+        height: 700px;
+  }
+
+  .one{
+     margin: 10px;
+  }
+  .two{
+        margin: 10px; 
+  }
+
+ .sqaure1 {
+     height: 258px;
+     width: 200px;
+     margin: 5px;
+     padding: 24px;
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     border-radius: 8px;
+     background: #0A2449;
+ }
+
+ .so1 {
+     color: #FFF;
+     font-family: Klarna Text;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 24px;
+     /* 133.333% */
+     letter-spacing: -0.36px;
+ }
+
+
+ .so2 {
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+     margin-right: 100px;
+
+     border-radius: 4px;
+     border: 0.5px solid rgba(255, 255, 255, 0.50);
+     background: rgba(255, 255, 255, 0.20);
+     color: white;
+     width: 80px;
+     height: 30px;
+     align-items: center;
+ }
+
+ .so3 {
+     display: flex;
+     background: url(image\ 1441.png);
+     /* background-position-x:left; */
+     /* background-position: right; */
+     /* margin-left: 100px; */
+     background-size: cover;
+     mix-blend-mode: lighten;
+     /* width: 300px; */
+     margin-top: -130px;
+     /* margin-bottom:-300px; */
+
+     width: 242.371px;
+     height: 200px;
+ }
+
+ .sqaure2 {
+     height: 258px;
+     width: 200px;
+     margin: 5px;
+
+     padding: 24px;
+     flex-direction: column;
+     justify-content: space-between;
+     align-items: flex-start;
+     flex: 1 0 0;
+     border-radius: 8px;
+     background: #24A83A;
+ }
+
+ .so3-2 {
+     display: flex;
+     background: url(Layer_1.svg );
+     /* background-position-x:left; */
+     /* background-position: right; */
+     /* margin-left: 100px; */
+     background-size: cover;
+     mix-blend-mode: lighten;
+     /* width: 300px; */
+     margin-top: -130px;
+     /* margin-bottom:-300px; */
+
+     width: 242.371px;
+     height: 200px;
+ }
+ 
+  .sqaure3{
+    height: 250px;
+    width: 200px;
+        margin: 5px;
+    display: flex;
+         padding: 24px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex: 1 0 0;
+        border-radius: 8px;
+        background: #FE5006;
+  }
+
+   .so2-3 {
+       display: flex;
+       justify-content: center;
+       margin-top: 50px;
+       /* margin-bottom: 50px; */
+
+       border-radius: 4px;
+       border: 0.5px solid rgba(255, 255, 255, 0.50);
+       background: rgba(255, 255, 255, 0.20);
+       color: white;
+       width: 80px;
+       height: 30px;
+       align-items: center;
+   }
+
+
+  .so3-3 {
+      display: flex;
+      background: url(Icons.svg);
+      /* background-position-x:left; */
+      /* background-position: right; */
+      /* margin-left: 100px; */
+      background-size: cover;
+      mix-blend-mode: lighten;
+      /* width: 150px; */
+      margin-top: -120px;
+      /* margin-bottom:-300px; */
+
+      width: 242.371px;
+      height: 200px;
+  }
+  .sqaure4{
+    height: 258px;
+    width: 200px;
+        margin: 5px;
+    display: flex;
+         padding: 24px;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex: 1 0 0;
+        border-radius: 8px;
+        background: #97092F;
+  }
+    
+.so3-4 {
+    display: flex;
+    background: url(Icons\ \(1\).svg );
+    /* background-position-x:left; */
+    /* background-position: right; */
+    /* margin-left: 100px; */
+    background-size: cover;
+    mix-blend-mode: lighten;
+    /* width: 300px; */
+    margin-top: -130px;
+    /* margin-bottom:-300px; */
+
+    width: 242.371px;
+    height: 200px;
+}
+
+
+
+ 
+/* from our previous work  */
+ 
+/* VOICES THAT MATTER WHITE PART */
+.voice{
+    /* border: 5px solid black; */
+    height: 350px;
+    /* width: 100%; */
+    display: flex;
+}
+
+.voice-div {
+    height: 300px;
+    width: 500px;
+    margin: 60px;
+    font-size: 30px;
+}
+
+
+/* THE BIG IMAGE */
+
+.big-image {
+    /* border: 5px solid black; */
+    height: 700px;
+    width: 100%;
+    display: flex;
+
+}
+
+.big-size {
+    margin: 5px;
+}
+
+.small-size {
+    margin: 5px;
+}
+
+/* BIG IMAGE BEFORE FOOTER */
+.before-f {
+    /* border: 5px solid black; */
+    height: 600px;
+    /* width: 100%; */
+    background: url(children\ 4.jpg) no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    padding-left: 60px;
+    padding-top: 60px;
+}
+
+.form{
+    background-color: white;
+    height: 450px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin: 100px; */
+    align-items: center;
+    text-align: center;
+}
+
+.h1{
+    color: #000;
+        text-align: center;
+        font-family: Klarna Sans;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        /* line-height: 80%; */
+        /* 39.6px */
+        margin: auto;
+        /* gap: 40px; */
+                margin-bottom: 20px;
+}
+
+.pah{
+    color: #000;
+        text-align: center;
+        font-family: Noto Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 110%;
+        /* 19.8px */
+        margin: auto;
+        margin-bottom: 30px;
+}
+
+.for{
+    /* border: 3px solid; */
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:  center;
+        gap: 5px;
+        height: 300px;
+        width: 350px;
+        text-align: center;
+        margin: auto;
+
+}
+input[type=text],
+input[type=email]{
+    display: flex;
+        width: 320px;
+        height: 70px;
+        /* padding: 8px 16px; */
+        align-items: center;
+        gap: 2px;
+        margin: 0px;
+
+        border-radius: 8px;
+            border: 0.5px solid var(--grey, #828282);
+            background: #FFF;
+            justify-content: center;
+}
+
+textarea{
+    display: flex;
+        width: 320px;
+        /* height: 50px; */
+        /* padding: 8px 16px; */
+        align-items: center;
+        gap: 2px;
+    margin: 0;
+        border-radius: 8px;
+        border: 0.5px solid var(--grey, #828282);
+        background: #FFF;
+}
+
+.btn{
+    display: flex;
+        width: 320px;
+        height: 90px;
+        /* padding: 8px 16px; */
+        align-items: center;
+        gap: 2px;
+        margin: 0;
+        border-radius: 10px;
+        border: 0.5px solid var(--grey, #828282);
+        background: #0c1bbb;
+        color: white;
+        text-align: center;
+        font-size: 25px;
+        justify-content: center;
+}
+/*  FOOFTER PART OF THE PAGE */
+.footer {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+
+}
+
+.inside-footer {
+    /* border: 5px solid red; */
+
+    height: 300px;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.logo-footer {
+    height: 100px;
+    width: 500px;
+    margin: 40px;
+
+}
+
+.navigation {
+    height: 100px;
+    width: 250px;
+    margin: 20px;
+
+}
+
+.privacy {
+    height: 100px;
+    width: 250px;
+    margin: 20px;
+
+}
+
+.service {
+    height: 100px;
+    width: 250px;
+    margin: 20px;
+
+}
+
+.follow {
+    height: 100px;
+    width: 250px;
+    margin: 20px;
+
+}
+
+.icon {
+    display: flex;
+    /* margin: 5px; */
+    gap: 10px;
+    
+}
+.linkd{
+color: white;
+}
+.linkd:hover {
+    color: blue;
+    font-size: 30px;
+}
+
+.HR {
+    margin: 20px;
+    color: white;
+}
+
+
+
+.copyhead {
+     display: flex;
+    margin: 20px;
+      
+}
+
+ .copy {
+    display: flex;
+    margin-right: auto;
+}
+
+.term {
+    display: flex;
+    margin-left: auto;
+} 
+
+
+
+/* END OF HOME PAGE */
+/* END OF HOME PAGE */
+/* END OF HOME PAGE */
+/* END OF HOME PAGE */
+/* END OF HOME PAGE */
+/* END OF HOME PAGE */
+/* END OF HOME PAGE */
+/* END OF HOME PAGE */
+
+
+
+/* BEGINNING OF ABOUT PAGE, THE VERY LONG PAGE OF THE WHOLE PROJECT */
+
+/* FIRST, WE WILL START WITH THE GENDER STUDIES */
+ 
+.gender {
+    /* border: 3px solid; */
+    color: black;
+     background-color: #FFF;
+     
+    height: 815px;
+    width: 1280px;
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+     
+}
+
+
+.inside-gender {
+    /* border: 3px solid; */
+    display: flex;
+    flex-direction: column;
+     align-items: flex-start;
+     color: black;
+     height: 800px;
+    width: 900px;
+}
+
+.gender-studies{
+    /* border: 3px solid; */
+    /* color: #ffffff; */
+    text-align: left;
+    font-family: 'KlarnaSans-Bold', sans-serif;
+    font-size: 30px;
+    
+    width: 700px;
+    height:150px;
+    margin-left: 50px;
+    
+}
+
+.ppp{
+     text-align: left;
+    font-family: 'NotoSans-DisplayRegular', sans-serif;
+    font-size: 18px;
+     position: relative;
+     margin-left: 55px;
+}
+
+/* HERE, WE WILL HAVE THE WHITE IMAGE */
+
+
+.white {
+    /* border: 3px solid; */
+    /* background: rgba(0, 0, 128, 0.897); */
+    height: 651px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: black;
+    padding: 30px;
+}
+ 
+.beside-white{
+    color: #494846;
+        font-family: Noto Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28.8px;
+        padding: 50px;
+}
+
+/*the pink backgroung part */
+
+.white1 {
+    /* border: 3px solid; */
+    background: rgb(141, 104, 147);
+    height: 1100px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    color: black;
+    padding: 30px;
+}
+
+.beside-white1 {
+    color: #0c0c0c;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+.beside-white2 {
+    color: #0c0c0c;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+}
+
+.pclass {
+    /* border: 3px solid; */
+    text-align: left;
+    font-family: 'NotoSans-DisplayRegular', sans-serif;
+    font-size: 17px;
+    /* line-height: 33.6px; */
+    /* font-weight: 400; */
+    /* position: relative; */
+    width: 700px;
+    margin-left: 5px;
+    height: 300px;
+    margin-top: -60px;
+    /* margin: 0px; */
+}
+
+/* we have the 4 photo part */
+.photo {
+    /* border: 3px solid; */
+    /* background: rgba(0, 0, 128, 0.897); */
+    height: 851px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: black;
+    padding: 20px;
+    padding-left: 60px;
+        padding-bottom: 60px;
+        padding-right: 60px;
+}
+
+.photo4{
+    margin: 10px;
+    /* padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px; */
+}
+
+/* we have wine part */
+.wine {
+    /* border: 3px solid; */
+     height: 551px;
+    width: 1400px;
+    background: linear-gradient(90deg,rgba(0,0,0,0.100),rgba(0,0,0,0.50)), url(about\ 2\ long/);
+     background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: black;
+    
+ }
+ 
+.wine1 {
+    /* border: 3px solid; */
+     height: 551px;
+    width: 1400px;
+     color: black;
+   }
+
+
+/* we will have the HEALTH and EDUCATION part */
+
+.white {
+    /* border: 3px solid; */
+    /* background: rgba(0, 0, 128, 0.897); */
+    height: 651px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: black;
+    padding: 30px;
+}
+
+
+
+/*the pink backgroung part */
+
+.health {
+    /* border: 3px solid; */
+    background: rgb(226, 218, 228);
+    height: 1500px;
+    width: 1340px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    color: black;
+    padding: 30px;
+}
+/* 
+.beside-health {
+    color: #494846;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+} */
+
+.beside-health1 {
+    color: #0c0c0c;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+     /* line-height: 28.8px; */
+    /* padding: 50px; */
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+}
+
+.beside-health2 {
+    color: #0c0c0c;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+    margin-top: -40px;
+}
+ 
+
+
+/* here, we have the 6 color image with linear gradient */
+
+/* we have the 6 photo part */
+.photo6 {
+    /* border: 3px solid; */
+    /* background: rgba(0, 0, 128, 0.897); */
+    height: 800px;
+    width: 1360px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    /* flex-direction: column; */
+    color: black;
+    padding: 20px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px; 
+ }
+/* this is for the text */
+.inside61{
+        /* border: 3px solid; */
+    display: flex;
+        justify-content: center;
+        font-size: 30px;
+        width: 400px;
+         margin: auto;
+}
+/* this is for the other color body, so what i did here is that i use the inside61 and inside6 to group the two div of text and color and also to seperate them.  */
+.inside6{
+        /* border: 3px solid; */
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.photo62 {
+    /* border: 3px solid; */
+    margin: 10px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    
+}
+
+.color1{
+    display: flex;
+    width: 300px;
+    height: 300px;
+         
+         border-radius: 8px;
+        background: linear-gradient(91deg, #24A83A 0.71%, rgba(36, 168, 58, 0.90) 97.28%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+        margin: 10px;
+         
+        justify-content: center;
+        
+        
+}
+
+
+.color2 {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+     
+    border-radius: 8px;
+        background: linear-gradient(91deg, #FE5006 0.71%, rgba(254, 80, 6, 0.81) 97.28%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+        justify-content: center;
+
+}
+
+.color3 {
+    display: flex;
+width: 300px;
+    height: 300px;
+    margin: 10px;
+    /* padding: 60px;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0; */
+    border-radius: 8px;
+        background: linear-gradient(90deg, #0A2449 0%, rgba(10, 36, 73, 0.90) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    justify-content: center;
+}
+
+.color4 {
+    display: flex;
+    width: 300px;
+        height: 300px;
+        margin: 10px;
+    /* padding: 60px;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0; */
+    border-radius: 8px;
+        background: linear-gradient(90deg, #D2A601 0%, rgba(210, 166, 1, 0.80) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+justify-content: center;
+}
+
+.color5 {
+    display: flex;
+width: 300px;
+    height: 300px;
+    margin: 10px;
+    /* padding: 60px;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0; */
+    border-radius: 8px;
+    background: linear-gradient(91deg, #97092F 0.71%, rgba(151, 9, 47, 0.90) 97.28%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+justify-content: center;
+}
+
+.color6 {
+    display: flex;
+width: 300px;
+    height: 300px;
+    margin: 10px;
+    /* padding: 60px;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0; */
+    border-radius: 8px;
+    background: linear-gradient(91deg, #01A4DB 0.71%, rgba(1, 164, 219, 0.80) 97.28%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+justify-content: center;
+}
+
+.text-photo6{
+    /* border: 3px solid; */
+    color: #1a1818;
+        font-family: Source Sans Pro;
+        font-size: 15px;
+        font-style: normal;
+        /* font-weight: 400; */
+        /* line-height: 152.5%; */
+        color: white;
+        display:  flex;
+        height: 100px;
+        width: 200px;
+        /* padding: 50px; */
+       align-items: center;
+       /* justify-content: center; */
+       text-align: left;
+       margin-top: 30px;
+}
+
+
+/* we will have the second pink background */
+
+.pink22 {
+    /* border: 3px solid; */
+    background: rgba(128, 0, 66, 0.897);
+    height: 900px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: black;
+    /* padding: 30px; */
+}
+
+.beside-pink22 {
+    color: #e7e1d6;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+    display: flex;
+}
+
+.beside-pink23 {
+    color: #e7e1d6;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+ }
+
+
+ /* here, we have the include part, with a white background */
+
+.include {
+    /* border: 3px solid; */
+    background: rgba(250, 246, 248, 0.897);
+    height: 900px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: black;
+    /* padding: 30px; */
+}
+
+.beside-include22 {
+    color: #141312;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+    display: flex;
+}
+
+.beside-include23 {
+    color: #0b0b0b;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+ }
+
+
+
+ /* here, we have the blue opacity background */
+
+  
+ .blue {
+     /* border: 3px solid; */
+     height: 551px;
+     width: 1400px;
+     background:linear-gradient(rgb(11, 2, 39),rgb(2, 2, 48));
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     color: black;
+     opacity: 0.9;
+
+ }
+
+ .inside-blue{
+    color: #FFF;
+        text-align: center;
+        font-family: Klarna Sans;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70.4px;
+        /* 125.714% */
+        letter-spacing: -1.12px;
+            /* border: 3px solid black; */
+            height: 251px;
+                /* width: 900px; */
+                padding: 50px;
+ }
+
+
+ /* END OF ABOUT2 PAGE */
+ /* END OF ABOUT2 PAGE */
+ /* END OF ABOUT2 PAGE */
+ /* END OF ABOUT2 PAGE */
+ /* END OF ABOUT2 PAGE */
+ /* END OF ABOUT2 PAGE */
+ /* END OF ABOUT2 PAGE */
+
+
+
+
+
+ /* BEGINNING OF ABOUT3 PAGE */
+ /* BEGINNING OF ABOUT3 PAGE */
+ /* BEGINNING OF ABOUT3 PAGE */
+
+ /* HERE, we have the sustainable and inclusive Agriculture */
+ .sus{
+     /* border: 3px solid; */
+     color: black;
+     background-color: #FFF;
+
+     height: 615px;
+     width: 1280px;
+     /* background-repeat: no-repeat; */
+     /* background-size: cover; */
+
+ }
+
+
+ .inside-sus {
+     /* border: 3px solid; */
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+     color: black;
+     height: 800px;
+     width: 900px;
+ }
+
+ .agric {
+     /* border: 3px solid; */
+     /* color: #ffffff; */
+     text-align: left;
+     font-family: 'KlarnaSans-Bold', sans-serif;
+     font-size: 30px;
+
+     width: 700px;
+     height: 150px;
+     margin-left: 50px;
+
+ }
+
+ .under-agric{
+     text-align: left;
+     font-family: 'NotoSans-DisplayRegular', sans-serif;
+     font-size: 22px;
+     position: relative;
+     margin-left: 55px;
+ }
+
+
+
+ /* here, we will have the farm picture part */
+ .farm{
+    height: 480px;
+        flex: 1 0 0;
+        border-radius: 4px;
+            background: url(farm\ picture.png ), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+
+
+ /* HERE WE HAVE THE OUR APPROACH PART */
+
+ .appro {
+     /* border: 3px solid; */
+     /* background: rgba(0, 0, 128, 0.897); */
+     height: 651px;
+     width: 1280px;
+     background-repeat: no-repeat;
+     background-size: cover;
+     display: flex;
+     color: black;
+     padding: 30px;
+ }
+
+ .beside-appro {
+     color: #090909;
+     font-family: Noto Sans;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: 400;
+     line-height: 28.8px;
+  }
+ 
+  /* HERE,
+WE WILL HAVE THE 3 IMAGE PART */
+
+.set3 {
+    height: 480px;
+    display: flex;
+    /* flex: 1 0 0; */
+    /* border-radius: 4px; */
+    
+}
+
+.inside-set3{
+         height: 408px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        /* flex: 1 0 0; */
+        margin: 10px;
+}
+
+
+
+/* WE WILL HAVE THE GREEN BACKGROUND */
+.green{
+    /* border: 3px solid; */
+    background: rgb(72, 150, 82);
+    height: 1200px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    color: black;
+    padding: 30px;
+}
+
+.beside-green1 {
+    color: #0c0c0c;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.beside-green2 {
+    color: #0c0c0c;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28.8px;
+    /* padding: 50px; */
+        margin: 10px;
+}
+ 
+
+
+/* HERE, WE WILL HAVE THE 4SET AND 1 AT THE BOTTOM PART */
+
+/* we have the 4 photo part */
+.set5-photo {
+    /* border: 3px solid; */
+    /* background: rgba(0, 0, 128, 0.897); */
+    height: 1300px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    color: black;
+    padding: 20px;
+    padding-left: 60px;
+    padding-bottom: 60px;
+    padding-right: 60px;
+}
+
+.inside-set5-photo {
+    margin: 10px;
+    display: flex;
+    /* padding-left: 50px;
+    padding-bottom: 50px;
+    padding-right: 50px; */
+}
+
+.four{
+    margin: 10px;
+}
+
+
+
+/* we will have the blue opacity part */
+
+/* here, we have the blue opacity background */
+
+
+.blue {
+    /* border: 3px solid; */
+    height: 551px;
+    width: 1400px;
+    background: linear-gradient(rgb(11, 2, 39), rgb(2, 2, 48));
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    color: black;
+    opacity: 0.9;
+
+}
+
+.inside-blue {
+    color: #FFF;
+    text-align: center;
+    font-family: Klarna Sans;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70.4px;
+    /* 125.714% */
+    letter-spacing: -1.12px;
+    /* border: 3px solid black; */
+    height: 251px;
+    /* width: 900px; */
+    padding: 50px;
+}
+
+/* END OF ABOUT3 PAGE */
+/* END OF ABOUT3 PAGE */
+/* END OF ABOUT3 PAGE */
+/* END OF ABOUT3 PAGE */
+/* END OF ABOUT3 PAGE */
+/* END OF ABOUT3 PAGE */
+/* END OF ABOUT3 PAGE */
+
+
+
+/* BEGINNING OF ABOUT US PAGE */
+
+
+.about-us{
+    width: 1512px;
+        height: 871px;
+        flex-shrink: 0;
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url(image\ 1.png), lightgray 0px -146.083px / 100% 116.207% no-repeat;
+}
+
+.inside-about-us{
+    display: flex;
+        width: 734px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 48px;
+ }
+
+.abouttext{
+    color: #FFF;
+        font-family: Noto Sans;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 33.6px;
+        /* 168% */
+        margin: 100px;
+        /* padding: 20px; */
+}
+
+
+/* we will have the two color background for vision and mission */
+.vision{
+    /* border: 3px solid; */
+display: flex;
+    /* width: 1512px; */
+    height: 380px;
+    padding: 40px 120px;
+    align-items: flex-start;
+    flex-shrink: 0;
+    margin-top: -15%;
+    color: white;
+}
+
+.vis{
+    /* display: flex; */
+        padding: 60px;
+        align-items: flex-start;
+        gap: 24px;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 8px 0px 0px 8px;
+            background: linear-gradient(91deg, #97092F 0.71%, rgba(151, 9, 47, 0.90) 97.28%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+            margin: 10px;
+}
+
+.mis{
+    /* display: flex; */
+        padding: 60px;
+        align-items: center;
+        gap: 24px;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 0px 8px 8px 0px;
+            background: linear-gradient(90deg, #0A2449 0%, rgba(10, 36, 73, 0.90) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+                        margin: 10px;
+}
+
+
+
+/* here, we have ACIEDafrica core value, with a 3 color and  a white background */
+
+.value-cii{
+    /* border: 3px solid; */
+    display: flex;
+        /* width: 1512px; */
+        padding: 120px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        background: #F7F7F7;
+}
+
+.inside-cii{
+    /* border: 3px solid; */
+    width: 814px;
+    color: #000;
+        text-align: center;
+        font-family: Klarna Text;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 72px;
+        /* 128.571% */
+        letter-spacing: -1.12px;
+}
+
+.inside-cii3{
+    /* border: 3px solid; */
+    display: flex;
+        width: 100%;
+        height: 417px;
+        padding: 0px 120px;
+        align-items: flex-start;
+        color: white;
+}
+
+.ciigreen{
+    display: flex;
+            height: 317px;
+        padding: 60px;
+        align-items: flex-start;
+        gap: 24px;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 8px;
+            background: linear-gradient(91deg, #24A83A 0.71%, rgba(36, 168, 58, 0.90) 97.28%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+            margin: 10px;
+}
+
+.ciiblue{
+    display: flex;
+                height: 317px;
+        padding: 60px;
+        align-items: flex-start;
+        gap: 24px;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 8px;
+            background: linear-gradient(90deg, #0A2449 0%, rgba(10, 36, 73, 0.90) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+                        margin: 10px;
+}
+
+
+.ciipink{
+    display: flex;
+                height: 317px;
+        padding: 60px;
+        align-items: flex-start;
+        gap: 24px;
+        flex: 1 0 0;
+        align-self: stretch;
+        border-radius: 8px;
+            background: linear-gradient(91deg, #97092F 0.71%, rgba(151, 9, 47, 0.90) 97.28%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+                        margin: 10px;
+}
+
+
+
+
+/* WE WILL HAVE THE big pink BACKGROUND of what we stand for */
+.what{
+    /* border: 3px solid; */
+    background: rgb(150, 72, 97);
+    height: 1200px;
+    width: 1280px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* display: flex; */
+    color: rgb(243, 235, 235);
+    padding: 30px;
+}
+
+.beside-what1 {
+    color: #0c0c0c;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+
+.beside-what2 {
+    color: #fbf9f9;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28.8px;
+    /* padding: 50px; */
+    margin: 10px;
+}
+
+
+
+/* HERE, WE WILL HAVE THE 4 THEMATIC CORE VALUE PART */
+.thematic-cii {
+    /* border: 3px solid; */
+    height: 600px;
+    display: flex;
+    /* width: 1512px; */
+    padding: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* gap: 60px; */
+    background: #fdfcfc;
+ }
+ 
+
+ .inside-thematic-cii {
+     /* border: 3px solid; */
+     width: 814px;
+     color: #000;
+     text-align: center;
+     font-family: Klarna Text;
+     font-size: 40px;
+     font-style: normal;
+     font-weight: 700;
+     line-height: 72px;
+     /* 128.571% */
+     letter-spacing: -1.12px;
+ }
+ 
+.thematic-2 {
+    /* border: 3px solid; */
+    align-self: stretch;
+    color: #000;
+    font-family: Klarna Text;
+    /* font-size: 20px; */
+    font-style: normal;
+    /* font-weight: 700; */
+    /* line-height: 72px;  */
+    /* 128.571%; */
+    letter-spacing: -1.12px;
+    width: 900px;
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+}
+ 
+.thematic-one {
+        /* border: 3px solid; */
+    margin: 10px;
+        display: flex;
+}
+
+.thematic-two {
+    /* border: 3px solid; */
+    margin: 10px;
+        display: flex;
+} 
+
+.thematic-sqaure1 {
+    height: 258px;
+    width: 200px;
+    margin: 5px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 8px;
+    background: #0A2449;
+}
+
+.thematic-so1 {
+    color: #FFF;
+    font-family: Klarna Text;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    /* 133.333% */
+    letter-spacing: -0.36px;
+}
+
+
+.thematic-so2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-right: 100px;
+
+    border-radius: 4px;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.20);
+    color: white;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+}
+
+.thematic-so3 {
+    display: flex;
+    background: url(image\ 1441.png);
+     
+    background-size: cover;
+    mix-blend-mode: lighten;
+     
+    margin-top: -130px;
+   
+
+    width: 242.371px;
+    height: 200px;
+}
+
+.thematic-sqaure2 {
+    height: 258px;
+    width: 200px;
+    margin: 5px;
+
+    padding: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: #24A83A;
+}
+
+.thematic-so3-2 {
+    display: flex;
+    background: url(Layer_1.svg );
+    
+    background-size: cover;
+    mix-blend-mode: lighten;
+   
+    margin-top: -120px;
+    
+
+    width: 242.371px;
+    height: 200px;
+}
+
+.thematic-sqaure3 {
+    height: 250px;
+    width: 200px;
+    margin: 5px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: #FE5006;
+}
+
+.thematic-so2-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    /* margin-bottom: 50px; */
+
+    border-radius: 4px;
+    border: 0.5px solid rgba(255, 255, 255, 0.50);
+    background: rgba(255, 255, 255, 0.20);
+    color: white;
+    width: 80px;
+    height: 30px;
+    align-items: center;
+}
+
+
+.thematic-so3-3 {
+    display: flex;
+    background: url(Icons.svg);
+    
+    background-size: cover;
+    mix-blend-mode: lighten;
+   
+    margin-top: -120px;
+     
+
+    width: 242.371px;
+    height: 200px;
+}
+
+.thematic-sqaure4 {
+    height: 250px;
+    width: 200px;
+    margin: 5px;
+    display: flex;
+    padding: 24px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: #97092F;
+}
+
+.thematic-so3-4 {
+    display: flex;
+    background: url(Icons\ \(1\).svg );
+    
+    background-size: cover;
+    mix-blend-mode: lighten;
+   
+    margin-top: -130px;
+   
+    width: 242.371px;
+    height: 200px;
+}
+
+/* END OF ABOUT US PAGE */
+/* END OF ABOUT US PAGE */
+/* END OF ABOUT US PAGE */
+/* END OF ABOUT US PAGE */
+/* END OF ABOUT US PAGE */
+/* END OF ABOUT US PAGE */
+/* END OF ABOUT US PAGE */
+
+
+
+/* BEGINNING OF ABOUT 4 PAGE */
+/* BEGINNING OF ABOUT 4 PAGE */
+/* BEGINNING OF ABOUT 4 PAGE */
+/* BEGINNING OF ABOUT 4 PAGE */
+
+ /* HERE,
+we have the Entrepreneurial Skills part */
+.e-skills{
+    /* border: 3px solid; */
+    height: 600px;
+}
+
+.inside-e-skills{
+    width: 729px;
+    color: #000;
+        font-family: Klarna Sans;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 70.4px;
+        /* 110% */
+        letter-spacing: -1.28px;
+        margin-left: 80px;
+        margin-top: 90px;
+}
+
+.inside-e-skills2{
+    width: 651px;
+    color: #000;
+        font-family: Noto Sans;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28.8px;
+        /* 160% */
+       margin-top: 20px;
+                margin-left: 80px;
+}
+
+
+/* THE GREEN BIG IMAGE GRADIENT BACKGROUND */
+
+.thegreen{
+    display: flex;
+        /* width: 1512px; */
+        height: 400px;
+        padding: 120px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        background: linear-gradient(92deg, #24A83A 3.38%, rgba(36, 168, 58, 0.58) 98.46%), url(banner\ 4.png), lightgray 0px 2.732px / 100% 120.467% no-repeat;
+        background-size: cover;
+}
+
+.inside-thegreen{
+    display: flex;
+    height: 400px;
+    width: 700px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 32px;
+        align-self: stretch;
+        color: white;
+        font-size: 20px;
+}
+
+/* HERE, WE HAVE THE WHITE BACKGROUND TVET PART */
+.tvet{
+    display: flex;
+    height:500px;
+        /* width: 1512px; */
+        padding: 120px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 80px;
+        color: black;
+}
+
+.inside-tvet{
+    /* border: 3px solid; */
+    height: 700px;
+    width: 1100px;
+    display: flex;
+         align-items: center;
+        gap: 80px;
+        align-self: stretch;
+}
+
+
+.tvet2{
+     font-size: 20px;
+}
+
+/* for the blue cover and picture oneside */
+
+.youth {
+    display: flex;
+    height: 500px;
+    /* width: 1512px; */
+    padding: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: rgb(253, 252, 252);
+    background: rgba(10, 36, 73, 0.90);
+     
+}
+
+.inside-youth {
+    /* border: 3px solid; */
+    height: 700px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+
+
+.youth2 {
+    font-size: 20px;
+}
+
+
+
+/* HERE, WE HAVE THE EXPLORE PART */
+
+.explore{
+    display: flex;
+        /* width: 1512px; */
+        padding: 120px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+        background: #FFF;
+}
+
+
+.inside-explore{
+    /* border: 3px solid; */
+    width: 714px;
+    height: 200px;
+    color: #000;
+        text-align: center;
+        font-family: Klarna Text;
+        font-size: 56px;
+        font-style: normal;
+        /* font-weight: 700; */
+        /* line-height: 67.2px; */
+        /* 120% */
+        /* letter-spacing: -1.12px; */
+        align-items: center;
+}
+
+.h5e{
+    margin-top: 10px;
+}
+
+
+.inside-explore2{
+    display: flex;
+        width: 1512px;
+        padding: 0px 120px;
+        align-items: flex-start;
+        justify-content: center;
+}
+
+
+.img-e{
+    margin: 10px;
+}
+
+
+
+/* END OF ABOUT 4 PAGE */
+/* END OF ABOUT 4 PAGE */
+/* END OF ABOUT 4 PAGE */
+/* END OF ABOUT 4 PAGE */
+/* END OF ABOUT 4 PAGE */
+/* END OF ABOUT 4 PAGE */
+/* END OF ABOUT 4 PAGE */
+/* END OF ABOUT 4 PAGE */
+
+/* BEGINNING OF ABOUT 5 PAGE */
+/* BEGINNING OF ABOUT 5 PAGE */
+/* BEGINNING OF ABOUT 5 PAGE */
+/* BEGINNING OF ABOUT 5 PAGE */
+
+.policies {
+    /* border: 3px solid; */
+    height: 700px;
+}
+
+.inside-policies{
+    width: 729px;
+    color: #000;
+    font-family: Klarna Sans;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70.4px;
+    /* 110% */
+    letter-spacing: -1.28px;
+    margin-left: 80px;
+    margin-top: 90px;
+}
+
+.inside-policies2 {
+    width: 651px;
+    color: #000;
+    font-family: Noto Sans;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28.8px;
+    /* 160% */
+    margin-top: 20px;
+    margin-left: 80px;
+}
+
+/* the centre focus part with a picture */
+
+.cf{
+    display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        gap: 80px;
+        flex: 1 0 0;
+}
+
+.inside-cf{
+    margin: 100px;
+}
+
+.inside-cf2{
+    margin-left: -100px;
+}
+
+
+/* HERE, WE HAVE WE WORK IN COLLABORATION PART WITH A IMGAGE BY THE SIDE */
+
+.wework {
+    display: flex;
+    height: 500px;
+    /* width: 1512px; */
+    padding: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: black;
+}
+
+.inside-wework {
+    /* border: 3px solid; */
+    height: 700px;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    align-self: stretch;
+}
+
+
+.wework2 {
+    font-size: 20px;
+    margin-top: -150px;
+}
+
+.wework3 {
+    font-size: 20px;
+     
+}
+
+
+
+/* HERE, WE HAVE THE EXPLORE OUR GALLERY PART, WITH 3 IMAGE OF MEN AND MEETING SETTING */
+
+.our-gallery {
+    display: flex;
+    /* width: 1512px; */
+    padding: 120px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    background: #FFF;
+}
+
+
+.inside-our-gallery {
+    /* border: 3px solid; */
+    width: 714px;
+    height: 200px;
+    color: #000;
+    text-align: center;
+    font-family: Klarna Text;
+    font-size: 56px;
+    font-style: normal;
+    /* font-weight: 700; */
+    /* line-height: 67.2px; */
+    /* 120% */
+    /* letter-spacing: -1.12px; */
+    align-items: center;
+}
+
+.our-gallery-h5e {
+    margin-top: 10px;
+}
+
+
+.inside-our-gallery2 {
+    display: flex;
+    width: 1512px;
+    padding: 0px 120px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+.our-gallery-img-e {
+    margin: 10px;
+}
+
+
+/* END OF ABOUT 5 PAGE */
+/* END OF ABOUT 5 PAGE */
+/* END OF ABOUT 5 PAGE */
+/* END OF ABOUT 5 PAGE */
+/* END OF ABOUT 5 PAGE */
+/* END OF ABOUT 5 PAGE */
+/* END OF ABOUT 5 PAGE */
+/* END OF ABOUT 5 PAGE */
+
+
+
+/* END OF THE ACIED PROJECT */
+/* END OF THE ACIED PROJECT */
+/* END OF THE ACIED PROJECT */
+/* END OF THE ACIED PROJECT */
+/* END OF THE ACIED PROJECT */
+/* END OF THE ACIED PROJECT */
+/* END OF THE ACIED PROJECT */
